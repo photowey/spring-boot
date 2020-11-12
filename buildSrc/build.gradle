@@ -5,6 +5,8 @@ plugins {
 }
 
 repositories {
+	mavenLocal()
+    maven { name "aliyun" ; url "https://maven.aliyun.com/repository/public" }
 	mavenCentral()
 	gradlePluginPortal()
 	maven { url "https://repo.spring.io/release" }
